@@ -44,7 +44,7 @@ With JuliaCall:
 from juliacall import Main as jl
 jl.seval("using Batsrus")
 file = 'test/example.out'
-data = Batsrus.load(file)
+data = jl.Batsrus.load(file)
 ```
 
 With PyJulia:
